@@ -1,0 +1,61 @@
+{
+	"bByBaseVersion": false,
+	"baseVersion":
+	{
+		"filePath": ""
+	},
+	"versionId": "%%%PluginName%%%",
+	"assetIncludeFilters": [
+		{
+			"path": "%%%PluginContentDir%%%"
+		}
+	],
+	"assetIgnoreFilters": [],
+	"bForceSkipContent": true,
+	"forceSkipContentRules": [
+		{
+			"path": "/Engine/Editor"
+		},
+		{
+			"path": "/Engine/VREditor"
+		}
+	],
+	"forceSkipAssets": [],
+	"bIncludeHasRefAssetsOnly": false,
+	"bAnalysisFilterDependencies": false,
+	"bRecursiveWidgetTree": false,
+	"assetRegistryDependencyTypes": [],
+	"includeSpecifyAssets": [],
+	"bIncludeAssetRegistry": false,
+	"bIncludeGlobalShaderCache": false,
+	"bIncludeShaderBytecode": false,
+	"bIncludeEngineIni": false,
+	"bIncludePluginIni": false,
+	"bIncludeProjectIni": false,
+	"bEnableExternFilesDiff": false,
+	"ignoreDeletionModulesAsset": [],
+	"addExternAssetsToPlatform": [],
+	"bEnableChunk": false,
+	"chunkInfos": [],
+	"bCookPatchAssets": false,
+	"pakCommandOptions": [],
+	"replacePakCommandTexts": [],
+	"unrealPakOptions": [
+		"-compress",
+		"-compressionformats=Zlib"
+	],
+	"pakTargetPlatforms": [
+		"%%%TargetPlatform%%%"
+	],
+	"bCustomPakNameRegular": true,
+	"pakNameRegular": "{VERSION}",
+	"bSaveDeletedAssetsToNewReleaseJson": false,
+	"bSavePakList": false,
+	"bSaveDiffAnalysis": false,
+	"bSaveAssetRelatedInfo": false,
+	"bSavePatchConfig": false,
+	"savePath":
+	{
+		"path": "%%%OutputDirectory%%%"
+	}
+}
